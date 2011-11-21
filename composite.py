@@ -60,12 +60,12 @@ class Paragraph(Composite):
 
 book = Book('Testing composite')
 
-chapter1 = Chapter('1: Using composite to emulate skills')
+chapter1 = Chapter('1: Using composite to try things')
 
 par1 = Paragraph('This is lame')
 chapter1.add(par1)
 
-chapter2 = Chapter('2: Proving skills')
+chapter2 = Chapter('2: This one is lamer')
 
 
 book.add(chapter1)
